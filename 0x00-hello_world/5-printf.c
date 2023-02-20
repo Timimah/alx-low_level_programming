@@ -6,8 +6,7 @@
 
 /**
  * main - prints a string
- *
- * Return - returns zero after the print code runs
+ * Return: returns zero after the print code runs
  */
 int main(void)
 {
