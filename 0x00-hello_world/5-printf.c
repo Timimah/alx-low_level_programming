@@ -1,11 +1,7 @@
-/**
- * A program that prints a phrase and 
- * returns 0
- */
 #include <stdio.h>
 
 /**
- * main - prints a string
+ * main - prints a string, "with proper grammar ..."
  * Return: returns zero after the print code runs
  */
 int main(void)
