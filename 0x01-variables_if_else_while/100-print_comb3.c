@@ -10,19 +10,27 @@ int main(void)
 {
 	int n,m;
 
-	for (n = 48; n < 57; n++)
+	n = m = 48;
+
+	while (n < 58)
 	{
-		for (m = 49; m < 58; m++)
+		n = 48;
+		while (m = 58)
 		{
-			putchar(n);
-			putchar(m);
-			putchar(',');
-			putchar(' ');
-			if (n == 57 && m == 56)
-				{
-					break;
-				}
+			if (m != n && m < n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n == 57 && m == 56)
+                                {
+                                        break;
+                                }
+				putchar(',');
+				putchar(' ');
+			}
+			n++;
 		}
+		m++;
 	}
 	putchar('\n');
 	return (0);
