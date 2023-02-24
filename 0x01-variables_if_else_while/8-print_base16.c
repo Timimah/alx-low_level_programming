@@ -11,7 +11,7 @@ int main(void)
 
 	int alphas;
 
-	for (numbers = 0; numbers < 10; numbers++)
+	for (numbers = 48; numbers < 58; numbers++)
 		putchar(numbers);
 	for (alphas = 'a'; alphas <= 'f'; alphas++)
 		putchar(alphas);
