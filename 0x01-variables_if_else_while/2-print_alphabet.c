@@ -8,13 +8,11 @@
  */
 int main(void)
 {
-	int alpha = 'a';
+	char alpha;
 
-	putchar("The alphabeths are ");
-	while (alpha <= 'z')
+	for (alpha = 'a'; alpha <= 'z'; alpha ++)
 	{
 		putchar(alpha);
-		alpha++;
 	}
 	return (0);
 }
