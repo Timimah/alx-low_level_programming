@@ -1,3 +1,4 @@
+#include"main.h"
 #include <stdio.h>
 
 /**
@@ -7,19 +8,17 @@
  *
  * Return: 0 (Success)
  */
-#include "main.h"
-
-int prtchar(void);
-
 int main(void)
 {
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	prtchar();
-	return (0);
-}
-
-int prtchar(void)
-{
-	puts("_putchar");
 	return (0);
 }
