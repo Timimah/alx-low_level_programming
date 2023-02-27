@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints _putchar
@@ -7,6 +7,8 @@
  *
  * Return: 0 (Success)
  */
+#include "main.h"
+
 int main(void)
 {
 	char school[10] = "_putchar";
