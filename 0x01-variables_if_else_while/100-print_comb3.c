@@ -1,36 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all possible 
+ * main - a program that prints all possible
  * differrent combinations of two digits
  * that are different followed by a ',' and a space
  * Return: main returns aero (i.e. success)
  */
 int main(void)
 {
-	int n,m;
+	int i, e;
 
-	n = m = 48;
+	i = 48;
+	e = 48;
 
-	while (n < 58)
+	while (e < 58)
 	{
-		n = 48;
-		while (m < 58)
+		i = 48;
+		while (i < 58)
 		{
-			if (m != n && m < n)
+			if (e != i && e < i)
 			{
-				putchar(n);
-				putchar(m);
-				if (n == 57 && m == 56)
-                                {
-                                        break;
-                                }
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
 				putchar(',');
 				putchar(' ');
 			}
-			n++;
+			i++;
 		}
-		m++;
+		e++;
 	}
 	putchar('\n');
 	return (0);
