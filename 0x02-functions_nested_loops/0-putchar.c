@@ -9,16 +9,17 @@
  */
 #include "main.h"
 
+int prtchar(void);
+
 int main(void)
 {
-	char school[10] = "_putchar";
 
-	int i;
+	prtchar();
+	return (0);
+}
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(school[i]);
-	}
-	_putchar(10);
+int prtchar(void)
+{
+	puts("_putchar");
 	return (0);
 }
